@@ -60,3 +60,8 @@ Weather fetches use `Promise.allSettled()` so that if one country's weather fail
 - **No offline support:** The app requires an active internet connection — it fetches from both APIs on every search and has no service worker or cached fallback.
 - **REST Countries undocumented rate limit:** While generous, repeated rapid searches could trigger a 429 response. The app handles this with a 10-second cooldown and user-facing warning.
 - **No HTTPS enforcement:** If opened via `file://`, some browsers may block mixed content or restrict fetch for certain configurations.
+
+## AI Usage Disclosure
+
+- **Documentation:** Generative AI was used to create this README file.
+- **Code Review:** Before submission, generative AI was used to conduct a comprehensive code review to refactor unoptimized code and elucidate oversights, such as bugs and unseen edge cases.
