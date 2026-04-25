@@ -6,6 +6,8 @@
 
 Country Explorer is a single-page web application that lets users search for any country and instantly view its key data alongside the current weather in its capital city. Each result is displayed as a card showing the country flag, name, capital, population, region, live temperature, wind speed, and a color-coded "Travel Suitability" badge that classifies current conditions as Excellent, Good, Fair, or Poor. The app is a client-side mashup of two public APIs — no server, build step, or API key required.
 
+**Track:** MIS
+
 ## APIs Used
 
 ### [REST Countries](https://restcountries.com/)
